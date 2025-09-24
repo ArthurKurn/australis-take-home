@@ -51,15 +51,28 @@ Allow users to **remove** Pokémon from their favorites list.
 
 ---
 
-## 💡 Bonus (Optional)
+## ✨ Level-Up Requirements (choose any 3)
 
-If you have extra time, consider adding:
+Pick any **three** of the following and note your choices in the PR:
 
-- A note field for each saved Pokémon.
-- A clean and responsive layout.
-- Prevention of duplicate Pokémon being saved.
-- A loading spinner while fetching data.
-- Error handling (e.g., "Pokémon not found" message).
+1) **Details Route** – Add `/pokemon/:name` with deep linking and a back-friendly details page.
+2) **Favorites v2** – Favorites support **notes + tags**; sort by name/type/added-at; no duplicates.
+3) **Compare View** – Compare two Pokémon (stats chart).
+4) **Caching** – Use React Query (or SWR) with stale-while-revalidate and background refresh indicators.
+5) **Resilient Fetching** – Handle 429 rate limits with retry + user feedback.
+6) **PWA Offline** – Make recently viewed Pokémon available offline.
+7) **Accessibility Pass** – Keyboard navigation, labels/ARIA, visible focus, and contrast checked.
+8) **Testing** – 3–5 unit tests + 1 Playwright test (search → details → favorite with note).
+
+### Constraints
+- Keep total effort ~4–6 hours.
+- Don't add a backend; use PokéAPI only.
+- If you use a lib, explain why in your README.
+
+### What We Look For
+- Clear, typed API models (narrow to what you render).
+- Thoughtful state management and error UX.
+- A small but meaningful test surface.
 
 ---
 
