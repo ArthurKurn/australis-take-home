@@ -87,3 +87,9 @@ Pick any **three** of the following and note your choices in the PR:
    ```
 
 3. Share the link to your repo with us
+
+## // Arthur's Notes! //
+## Hi everyone, for the level-up requirements, I went with
+## - Favorites v2
+## - PWA Offline
+## - Compare View
